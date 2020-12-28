@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Reservation Page</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../Website/CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="../Website/CSS/reservation.css">
+	<link rel="stylesheet" type="text/css" href="../Website/CSS/radio.css">
+	
+
+</head>
+<body>
+<!-- 	Navigation menu bar -->
+<header>
+	<div class="container">
+	<div class="logo">
+		  <img src="../Website/Images/logo.png" alt="logo" width="180" height="100">
+	</div>
+	
+		 <button class="button" onclick="window.location.href='contactus.html'">Contact Us</button>
+		  <button class="button" onclick="window.location.href='login.html'">Login</button>
+		  <button class="button" onclick="window.location.href='signup.html'">Sign Up</button>
+	
+	</div>
+			
+	<div class="menubar">
+		
+			<ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="aboutus.html">About Us</a></li>
+				  <li><a href="menu.html">Menu</a></li>
+				  <li><a href="order.html">Order</a></li>
+				  <li><a href="reservation.html">Make a reservation</a></li>
+				    <li><a href="feedback.html">Feedback</a></li>
+		
+			   </ul>
+			
+	</div>
+</header>
+
+<!-- Navigation menu bar -->
+
+<br>
+<div class="row">
+  <div class="column">
+   <div id="resev">
+   	<h2>MAKE YOUR RESERVATION</h2>
+ <div id="frm">
+   	   
+   	    <form  method="post">
+	      		<div >
+			      <label><b>Name</b></label>
+			        <input type="text" placeholder="Enter your name" name="name" required>
+			      <br>
+
+			      <label><b>Email</b></label>
+			        <input type="text" placeholder="abc@abc.com" name="email" required>
+			      <br>
+			      <label><b>People</b></label>
+			        <input type="number" placeholder="Enter number of People" name="people" required>
+			      <br>
+			      <label><b>Number</b></label>
+			        <input type="text" placeholder="Enter your phone number" name="pno" required>
+			      <br>
+			       <label><b>Date</b></label>
+			        <input type="date" name="Bdate" required>
+			      <br>
+			       <br>
+
+			       <label><b>Jazz Perfomance</b></label>
+			       <br><br>
+			        <label class="radcontainer">Yes
+					  <input type="radio" checked="checked" name="radio">
+					    <span class="checkmark"></span>
+					</label>
+					<br>
+					<br>
+					<label class="radcontainer">No
+					  <input type="radio" name="radio">
+					  <span class="checkmark"></span>
+					</label>
+					<br>
+					<br>
+			      <button class="btn" onclick="window.location.href='payment.html'">
+			        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+			          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+			          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+			        </svg>
+			        <span>BOOK</span>
+			      </button>
+ 
+      		</div>
+    </form>
+   </div>
+
+   </div>
+  
+   
+  </div>
+  <div class="column" >
+    <div id="open" style="background-color: ">
+   	<h2>OPENING TIMES</h2>
+   	<div id="tim">
+   	  
+   	  	<p><strong>MONDAY - FRIDAY</strong></p>
+   	  		
+   	  	<p><strong> 7 AM TO 11 PM</strong></p>
+   	  	<br>
+   		<p><strong>SATURDAY</strong></p>
+		<p><strong> 9 AM TO 2 PM</strong></p>
+		<br>
+		<p><strong>SUNDAY</strong></p>
+		<p><strong> 9 AM TO 12 PM</strong></p>
+   	 
+  </div>
+   </div>
+   
+</div>
+</div>
+
+</body>
+</html>
